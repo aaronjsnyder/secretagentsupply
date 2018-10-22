@@ -64,6 +64,11 @@ nav {
   padding: 0.75rem 0;
 }
 
+#menu {
+  display: none;
+  text-align: center;
+}
+
 nav .container {
   display: flex;
   justify-content: space-between;
@@ -103,7 +108,7 @@ nav .container {
   text-align: center;
 }
 
-#glasses {
+#glasses img {
   width: 60%;
   height: auto;
   margin: 4.25rem auto;
@@ -147,3 +152,26 @@ footer .container {
   align-items: center;
   height: 5rem;
 }
+
+/* Tablet Style */
+
+@media only screen and (max-width: 1024px) {
+
+  #main-nav {
+  display: none;
+}
+
+  #menu {
+  display: block;
+}
+
+  #glasses {
+    display: none;
+  }
+
+  .product {
+    width: 47%
+  }
+}
+
+/* Mobile Style */
