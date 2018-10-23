@@ -157,6 +157,10 @@ footer .container {
 
 @media only screen and (max-width: 1024px) {
 
+  .container {
+    width: 100%;
+  }
+
   #main-nav {
   display: none;
 }
@@ -170,8 +174,63 @@ footer .container {
   }
 
   .product {
-    width: 47%
+    width: 47%;
   }
 }
 
 /* Mobile Style */
+
+@media only screen and (max-width: 470px) {
+
+  .container {
+    width: 100%;
+  }
+
+  .main-banner {
+    height: 15rem;
+  }
+
+  .main-banner .container {
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .banner-text {
+    padding: 1rem 2rem;
+    font-size: 0.77rem;
+    width: 100%;
+  }
+
+  .banner-text h2 {
+    font-size: 1rem;
+  }
+
+  #watch {
+    display: none;
+  }
+
+  .product-grid {
+    justify-content: center;
+  }
+
+  .product {
+    width: 90%;
+  }
+
+  .location-hours {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .block {
+    width: 90%;
+    margin-top: 0.5rem;
+  }
+
+  footer .container {
+    justify-content: center;
+  }
+
+}
